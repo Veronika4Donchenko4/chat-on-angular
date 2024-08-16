@@ -1,0 +1,31 @@
+.converter-row {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.converter-input {
+  width: 150px;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  margin-inline: 1rem;
+}
+
+.converter-input:focus {
+  outline: none;
+  border-color: #ffc107;
+}
+
+.converter-select {
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.converter-select:hover {
+  cursor: pointer;
+  border-color: #ffc107;
+}

@@ -1,0 +1,16 @@
+<div class="converter-container">
+  <div class="converter-row">
+    <app-currency-input
+      [amount]="amount1"
+      [currency]="currency1"
+      (convert)="onAmountChange($event, true)"
+    ></app-currency-input>
+  </div>
+  <div class="converter-row">
+    <app-currency-input
+      [amount]="amount2"
+      [currency]="currency2"
+      (convert)="onAmountChange($event, false)"
+    ></app-currency-input>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+.converter-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 1rem;
+  background-color: #ffeb3b;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.converter-row {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

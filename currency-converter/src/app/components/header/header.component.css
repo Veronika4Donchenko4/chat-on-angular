@@ -1,0 +1,14 @@
+.header-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #ffeb3b;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .currency-rates p {
+    font-weight: bold;
+    color: #000;
+  }

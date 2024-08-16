@@ -1,0 +1,17 @@
+<div class="converter-row">
+    <input
+      [(ngModel)]="amount"
+      (ngModelChange)="onInputChange()"
+      type="number"
+      class="converter-input"
+    />
+    <select
+      [(ngModel)]="currency"
+      (ngModelChange)="onInputChange()"
+      class="converter-select"
+    >
+      <option *ngFor="let currency of currencies" [value]="currency">
+        {{ currency }}
+      </option>
+    </select>
+  </div>
